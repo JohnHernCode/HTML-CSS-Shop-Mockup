@@ -1,6 +1,7 @@
 # Capstone - Online Shop Responsive design
 
 The Capstone project is during the 4th week of the Microverse program and is to help identify mastery of the material. This specific Capstone project consists of developing the Online Shop with responsive features. 
+
 The original design idea was by ![Mohammed Awad on Behance](https://www.behance.net/M_Awad).
 
 ![screenshot](./shot1.png)
