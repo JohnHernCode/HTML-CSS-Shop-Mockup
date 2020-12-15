@@ -357,4 +357,16 @@ hr {
     height: 2em;
     text-align: center;
   }
+
+  .small-items-ps5 {
+    display: none;
+  }
+
+  .small-items-xbox {
+    display: none;
+  }
+
+  .small-items-switch {
+    display: none;
+  }
 }
