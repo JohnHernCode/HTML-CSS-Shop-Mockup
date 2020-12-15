@@ -198,6 +198,23 @@ hr {
   filter: grayscale(100%);
 }
 
+.foot-cat h5 {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  color: #d35266;
+  font-weight: 600;
+}
+
+.foot-line {
+  border: 1px solid #d35266;
+  width: 100%;
+  margin: 0;
+  opacity: 1;
+}
+
+.foot-row {
+  padding-top: 10px;
+}
+
 .footer-copyright {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   color: #888;
