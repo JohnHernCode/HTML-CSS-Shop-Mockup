@@ -9,32 +9,113 @@
   <meta name="author" content="JohnHernCode">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-  <link rel="stylesheet" href="css/main.css?v=1.0">
-  <link rel="sytlesheet" href="font/stylesheet.css">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="sytlesheet" href="/font/stylesheet.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
 
 </head>
 
 <body>
   <nav>
-    <ul class="mainnav">
-      <li class="logo"><a href="#"><img src="img/logo/gdlogo.png" alt="GameDepo Logo"></a></li>
-      <li class="object1"><i class="fas fa-home"></i><a href="#"> Home</a></li>
-      <li class="object"><i class="fas fa-barcode"></i><a href="#"> Collection</a></li>
-      <li class="object"><i class="fas fa-shopping-cart"></i> <a href="#">Purchase List</a></li>
-    </ul>
-    <div id="mobilesearch"></div>
+    <div class="mainnav">
+      <li class="logo"><a href="#"><img src="img/logo/GameDepoLogo.png" alt="GameDepo Logo"></a></li>
+      <li class="object-home"><a href="#"><i class="fas fa-home"></i> Home</a></li>
+      <li class="object"><a href="#"><i class="fas fa-barcode"></i> Collection</a></li>
+      <li class="object"><a href="#"><i class="fas fa-shopping-cart"></i> Purchase List</a></li>
+      <!--<li class="toggle"><a href="#"><i class="fas fa-bars"></i></a></li>-->
+    </div>
     <ul class="lgnav">
-      <li class="logo"><a href="#"><img src="img/logo/gdlogo.png" alt="GameDepo Logo"></a></li>
-      <li class="object1"><i class="fas fa-home"></i><a href="#"> Home</a></li>
+      <li class="logo"><a href="#"><img src="img/logo/GameDepoLogo.png" alt="GameDepo Logo"></a></li>
+      <li class="object-home"><i class="fas fa-home"></i><a href="#"> Home</a></li>
       <li class="object"><i class="fas fa-barcode"></i><a href="#"> Collection</a></li>
       <li class="object"><i class="fas fa-shopping-cart"></i> <a href="#">Home</a></li>
-      <li class="object button"><a href="#">Post Ad</a></li>
+      <button class="ad-button">POST AN AD</button>
     </ul>
   </nav>
   <main>
-    <section id="search"></section>
-    <section id="hotads"><i class="fas fa-gamepad"></i></section>
-    <section id="ps5"></section>
+    <!--Search Section Large Screen-->
+    <section class="row search pt-0">
+      <div class="d-flex justify-content-center title col-12 pt-5"><img src="img/logo/GameDepoLogo.png" alt="GameDepo"></div>
+      <div class="d-flex justify-content-center col-12 p-4">
+        <div class="col-2">
+            <select class="form-control">
+              <option>All Departments</option>
+              <option>Category 2</option>
+              <option>Category 3</option>
+              <option>Category 4</option>
+              <option>Category 5</option>
+            </select>
+        </div>
+        <div class="col-3">
+            <input type="text" class="form-control" placeholder="What would you like to search for?">
+        </div>
+        <div class="col-2">
+          <input type="text" class="form-control" placeholder="Game ID">
+        </div>
+        <button type="button" class="form-button"><a href="search.html">Search</a></button>
+      </div>
+    </section>
+    <section class="hotads">
+      <div class="row hot-ads-box">
+        <div class="hot-ads-head">HOT ADS</div>
+        <div class="d-flex justify-content-center col-12 pb-4">
+          <div class="left-button"><i class="fas fa-angle-left"></i></div>
+          <div class="card border-0 mb-3 max-vw-100">
+            <div class="row no-gutters">
+              <div class="col-md-4">
+                <img class="w-100" src="img\ps5\demonssoulsps5.webp" alt="Demons Souls PS5">
+          
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Card title</h5>
+                  <p class="card-text">Demon's Souls is an action role-playing game developed by FromSoftware for the PlayStation 3 under the supervision of SIE Japan Studio. </p>
+                  <p class="card-text">It was published in Japan by Sony Computer Entertainment in February 2009, in North America by Atlus USA in October 2009, and in PAL territories by Namco Bandai Games in June 2010.</p>
+                  <div class="row">
+                    <div class="d-flex justify-content-start">
+                      <div class="col-2"><button type="button" class="hotad-button1 w-100">$69</button></div>
+                      <div class="col-8"><button type="button" class="hotad-button w-100"><i class="fas fa-shopping-cart"></i> Purchase Details</button></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="right-button"><i class="fas fa-angle-right"></i></div>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="mobile-head"><i class="fas fa-gamepad"></i> PS5 <span class="mobile-h-info">(Games for the PS5 console)</span></div>
+      <hr>
+      <div class="row row-mobile col-11">
+        <div class="card col-6">
+          <img class="card-img-top" src="img/ps5/demonssoulsps5.webp" alt="Card image cap">
+          <div class="card-b">
+            <h5 class="card-t">Demons Souls PS5</h5>
+            <h6 class="small-info">New</h6>
+            <p class="card-text card-txt">Available: Online or in store</p>
+            <div class="d-flex justify-content-between">
+              <div class="p-2">icon</div>
+              <div class="ml-auto p-2 cash">$69</div>
+            </div>
+          </div>
+        </div>
+        <div class="card col-6">
+          <img class="card-img-top" src="img/ps5/demonssoulsps5.webp" alt="Card image cap">
+          <div class="card-b">
+            <h5 class="card-t">Demons Souls PS5</h5>
+            <h6 class="small-info">New</h6>
+            <p class="card-text card-txt">Available: Online or in store</p>
+            <div class="d-flex justify-content-between">
+              <div class="p-2">icon</div>
+              <div class="ml-auto p-2 cash">$69</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <section id="xbox"></section>
     <section id="switch"></section>
     <footer>
