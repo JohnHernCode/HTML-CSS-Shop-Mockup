@@ -222,6 +222,18 @@ hr {
   font-size: 14px;
 }
 
+.large-items-ps5 {
+  visibility: hidden;
+}
+
+.large-items-xbox {
+  visibility: hidden;
+}
+
+.large-items-switch {
+  visibility: hidden;
+}
+
 @media only screen and (min-width: 768px) {
   .mainnav {
     display: none;
@@ -368,5 +380,57 @@ hr {
 
   .small-items-switch {
     display: none;
+  }
+
+  .large-items-xbox {
+    visibility: visible;
+  }
+
+  .large-items-ps5 {
+    visibility: visible;
+  }
+
+  .large-items-switch {
+    visibility: visible;
+  }
+
+  .large-head {
+    padding-left: 10px;
+    padding-top: 10px;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #888;
+  }
+
+  .large-h-info {
+    font-size: 16px;
+    font-weight: normal;
+    color: #888;
+  }
+
+  .card-holder-large {
+    padding-left: 8px;
+    max-width: 150px;
+  }
+
+  .card-holder-large .card {
+    width: 100%;
+  }
+
+  .right-button2 .fas {
+    font-size: 25px;
+    box-shadow: -12px 0 8px -4px #888;
+    color: #383838;
+    line-height: 2em;
+    width: 2em;
+    height: 302px;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 120px;
+  }
+
+  .right-button2 {
+    padding-left: 10px;
   }
 }
