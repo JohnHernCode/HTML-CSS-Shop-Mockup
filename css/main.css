@@ -303,6 +303,186 @@ footer {
   display: none;
 }
 
+.two-columns {
+  display: none;
+}
+
+.right-game {
+  padding-top: 20px;
+  border-right: 1px solid rgb(136, 136, 136, 0.5);
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.right-game hr {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.dark {
+  padding-right: 4px;
+  color: #888;
+  font-weight: 700;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.light {
+  padding-right: 4px;
+  color: #888;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 12px;
+}
+
+.contents hr {
+  margin-left: 0;
+}
+
+.c-inactive {
+  background-color: rgb(243, 243, 243);
+}
+
+.c-active {
+  background-color: #fff;
+}
+
+.bd-img {
+  height: 200px;
+}
+
+.card-right {
+  padding-left: 0;
+}
+
+.title {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  color: #383838;
+}
+
+.stock {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  font-weight: 700;
+  color: #d35266;
+}
+
+.card-text {
+  font-size: 10px;
+  font-weight: normal;
+  padding-top: 5px;
+  color: #888;
+}
+
+.box-over3 {
+  position: absolute;
+  z-index: 999;
+  text-align: center;
+  bottom: 0;
+  right: 20px;
+  background: #383838;
+  line-height: 20px;
+  width: 20px;
+}
+
+.box-over3 .fas {
+  color: #d35266;
+  font-size: 20px;
+}
+
+.box-over4 {
+  position: absolute;
+  z-index: 999;
+  text-align: center;
+  bottom: 0;
+  right: 0;
+  background: #383838;
+  line-height: 20px;
+  width: 20px;
+}
+
+.box-over4 .fas {
+  color: #d35266;
+  font-size: 20px;
+}
+
+.plus-square2 {
+  color: #888;
+  border-radius: 5%;
+  border: 0.5px solid rgb(180, 179, 179);
+  padding: 0;
+  margin: 0;
+}
+
+.plus-square2 .fas {
+  color: #888;
+  font-size: 10px;
+  padding-right: 5px;
+  padding-left: 5px;
+  margin: 0;
+  text-align: center;
+}
+
+.content-button {
+  background-color: #d35266;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  padding: 8px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.pagination {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  font-size: 12px;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+.item {
+  padding-right: 10px;
+}
+
+.pagination a:not(.open) {
+  color: black;
+  float: left;
+  padding: 4px 9px;
+  text-decoration: none;
+  border: 0.5px solid rgb(180, 179, 179, 0.3);
+  border-radius: 10%;
+}
+
+.pagination .open {
+  text-decoration: none;
+  color: black;
+}
+
+.pagination a.active {
+  background-color: #d35266;
+  color: white;
+}
+
+.pagination a:not(.open):not(.active) {
+  background-color: #fff;
+}
+
+.space {
+  margin-top: 50px;
+  margin-right: 0;
+}
+
+.bottom-search {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 @media only screen and (min-width: 768px) {
   .mainnav {
     display: none;
@@ -598,7 +778,13 @@ footer {
     padding-left: 10px;
   }
 
+  .mobile-section {
+    display: none;
+  }
+
+  /* two columns section */
   .two-columns {
+    display: block;
     padding-left: 60px;
   }
 
@@ -648,181 +834,5 @@ footer {
     border-radius: 2px;
     text-align: center;
     color: #888;
-  }
-
-  .right-game {
-    padding-top: 20px;
-    border-right: 1px solid rgb(136, 136, 136, 0.5);
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  .right-game hr {
-    margin-left: 0;
-    margin-right: 0;
-  }
-
-  .dark {
-    padding-right: 4px;
-    color: #888;
-    font-weight: 700;
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    font-size: 12px;
-  }
-
-  .light {
-    padding-right: 4px;
-    color: #888;
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    font-size: 12px;
-  }
-
-  .contents hr {
-    margin-left: 0;
-  }
-
-  .c-inactive {
-    background-color: rgb(243, 243, 243);
-  }
-
-  .c-active {
-    background-color: #fff;
-  }
-
-  .bd-img {
-    height: 200px;
-  }
-
-  .card-right {
-    padding-left: 0;
-  }
-
-  .title {
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    font-size: 12px;
-    font-weight: 700;
-    color: #383838;
-  }
-
-  .stock {
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    font-size: 10px;
-    font-weight: 700;
-    color: #d35266;
-  }
-
-  .card-text {
-    font-size: 10px;
-    font-weight: normal;
-    padding-top: 5px;
-    color: #888;
-  }
-
-  .box-over3 {
-    position: absolute;
-    z-index: 999;
-    text-align: center;
-    bottom: 0;
-    right: 20px;
-    background: #383838;
-    line-height: 20px;
-    width: 20px;
-  }
-
-  .box-over3 .fas {
-    color: #d35266;
-    font-size: 20px;
-  }
-
-  .box-over4 {
-    position: absolute;
-    z-index: 999;
-    text-align: center;
-    bottom: 0;
-    right: 0;
-    background: #383838;
-    line-height: 20px;
-    width: 20px;
-  }
-
-  .box-over4 .fas {
-    color: #d35266;
-    font-size: 20px;
-  }
-
-  .plus-square2 {
-    color: #888;
-    border-radius: 5%;
-    border: 0.5px solid rgb(180, 179, 179);
-    padding: 0;
-    margin: 0;
-  }
-
-  .plus-square2 .fas {
-    color: #888;
-    font-size: 10px;
-    padding-right: 5px;
-    padding-left: 5px;
-    margin: 0;
-    text-align: center;
-  }
-
-  .content-button {
-    background-color: #d35266;
-    color: #fff;
-    border: none;
-    border-radius: 2px;
-    padding: 8px 8px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 12px;
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    font-weight: 700;
-  }
-
-  .pagination {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    font-size: 12px;
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
-  }
-
-  .item {
-    padding-right: 10px;
-  }
-
-  .pagination a:not(.open) {
-    color: black;
-    float: left;
-    padding: 4px 9px;
-    text-decoration: none;
-    border: 0.5px solid rgb(180, 179, 179, 0.3);
-    border-radius: 10%;
-  }
-
-  .pagination .open {
-    text-decoration: none;
-    color: black;
-  }
-
-  .pagination a.active {
-    background-color: #d35266;
-    color: white;
-  }
-
-  .pagination a:not(.open):not(.active) {
-    background-color: #fff;
-  }
-
-  .space {
-    margin-top: 50px;
-    margin-right: 0;
-  }
-
-  .bottom-search {
-    margin-left: 0;
-    margin-right: 0;
   }
 }
