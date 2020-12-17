@@ -44,27 +44,23 @@ nav a {
   padding-left: 10px;
 }
 
-.object-end {
-  padding-left: 150px;
-  font-size: 12px;
-}
-
-.object-end2 {
+.object-end2 a {
+  color: #fff;
   padding: 10px;
   font-size: 12px;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
-.object-end2 a {
-  color: #fff;
-}
-
 .object-home a {
   color: rgb(211, 82, 102);
+  padding: 10px;
+  font-size: 12px;
 }
 
 .object-end a {
   color: rgb(211, 82, 102);
+  padding-left: 150px;
+  font-size: 12px;
 }
 
 .object-end2 a:hover {
@@ -92,11 +88,6 @@ nav a {
   color: rgb(255, 255, 255);
 }
 
-.object-home {
-  padding: 10px;
-  font-size: 12px;
-}
-
 .object-home a:hover {
   color: rgb(255, 255, 255);
 }
@@ -118,7 +109,6 @@ nav a {
   text-decoration: none;
   display: inline-block;
   font-size: 12px;
-  font-family: 'Raleway', Arial, Helvetica, sans-serif;
   font-weight: 700;
 }
 
@@ -151,9 +141,7 @@ main {
 }
 
 .mobile-h-info {
-  font-size: 10px;
   font-weight: normal;
-  color: #888;
 }
 
 hr {
@@ -168,6 +156,8 @@ hr {
 .card {
   display: block;
   border-radius: 0;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  font-size: 12px;
 }
 
 .card-b {
@@ -176,7 +166,6 @@ hr {
 }
 
 .card-t {
-  font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-size: 14px;
   font-weight: 500;
 }
@@ -189,14 +178,11 @@ hr {
 }
 
 .card-txt {
-  font-size: 12px;
-  font-family: 'Roboto', Arial, Helvetica, sans-serif;
-  color: #888;
   margin-bottom: 0;
 }
 
-.plus-square {
-  color: #888;
+.plus-square,
+.plus-square2 {
   border-radius: 5%;
   border: 0.5px solid rgb(180, 179, 179);
   padding: 0;
@@ -212,15 +198,12 @@ hr {
 }
 
 .cash {
-  font-family: 'Roboto', Arial, Helvetica, sans-serif;
   color: #d35266;
   font-weight: 600;
   font-size: 14px;
 }
 
 .foot-img {
-  font-family: 'Roboto', Arial, Helvetica, sans-serif;
-  color: #888;
   font-weight: 300;
   font-size: 12px;
 }
@@ -230,7 +213,6 @@ hr {
 }
 
 .foot-cat h1 {
-  font-family: 'Roboto', Arial, Helvetica, sans-serif;
   color: #d35266;
   font-weight: 600;
   font-size: 16px;
@@ -248,8 +230,6 @@ hr {
 }
 
 .footer-copyright {
-  font-family: 'Roboto', Arial, Helvetica, sans-serif;
-  color: #888;
   font-weight: 300;
   font-size: 14px;
   padding: 10px 0;
@@ -271,10 +251,11 @@ footer {
   background-color: #fff;
   padding-left: 40px;
   padding-right: 40px;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
+  color: #888;
 }
 
 .foot-last {
-  font-family: 'Roboto', Arial, Helvetica, sans-serif;
   color: #d35266;
   font-size: 16px;
 }
@@ -320,19 +301,19 @@ footer {
   margin-right: 0;
 }
 
-.dark {
-  padding-right: 4px;
-  color: #888;
-  font-weight: 700;
+.mobile-section {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-size: 12px;
+  color: #888;
+}
+
+.dark {
+  padding-right: 4px;
+  font-weight: 700;
 }
 
 .light {
   padding-right: 4px;
-  color: #888;
-  font-family: 'Roboto', Arial, Helvetica, sans-serif;
-  font-size: 12px;
 }
 
 .contents hr {
@@ -356,14 +337,11 @@ footer {
 }
 
 .title {
-  font-family: 'Roboto', Arial, Helvetica, sans-serif;
-  font-size: 12px;
   font-weight: 700;
   color: #383838;
 }
 
 .stock {
-  font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-size: 10px;
   font-weight: 700;
   color: #d35266;
@@ -371,9 +349,7 @@ footer {
 
 .card-text {
   font-size: 10px;
-  font-weight: normal;
   padding-top: 5px;
-  color: #888;
 }
 
 .box-over3 {
@@ -406,14 +382,6 @@ footer {
 .box-over4 .fas {
   color: #d35266;
   font-size: 20px;
-}
-
-.plus-square2 {
-  color: #888;
-  border-radius: 5%;
-  border: 0.5px solid rgb(180, 179, 179);
-  padding: 0;
-  margin: 0;
 }
 
 .plus-square2 .fas {
@@ -541,12 +509,11 @@ footer {
     background-color: #383838;
     color: #fff;
     border: none;
-    padding: 5px 10px;
+    padding: 10px 10px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 12px;
-    font-family: 'Raleway', Arial, Helvetica, sans-serif;
     font-weight: 700;
   }
 
@@ -555,7 +522,7 @@ footer {
     text-decoration: none;
   }
 
-  .form-button a:hover {
+  .form-button:hover {
     color: #d35266;
   }
 
@@ -616,8 +583,6 @@ footer {
 
   .hot-ads-head {
     padding: 15px 75px;
-    font-family: 'Raleway', Arial, Helvetica, sans-serif;
-    font-size: 16px;
     font-weight: 500;
     color: #888;
   }
@@ -660,7 +625,6 @@ footer {
     text-decoration: none;
     display: inline-block;
     font-size: 14px;
-    font-family: 'Raleway', Arial, Helvetica, sans-serif;
     font-weight: 700;
   }
 
@@ -673,7 +637,6 @@ footer {
     text-decoration: none;
     display: inline-block;
     font-size: 14px;
-    font-family: 'Raleway', Arial, Helvetica, sans-serif;
     font-weight: 700;
   }
 
