@@ -475,6 +475,11 @@ footer {
     display: none;
   }
 
+  .pagination a {
+    color: #888;
+    text-decoration: none;
+  }
+
   .lgnav {
     list-style-type: none;
     display: flex;
@@ -566,11 +571,6 @@ footer {
     display: inline-block;
     font-size: 16px;
     font-weight: 700;
-  }
-
-  .pagination a {
-    color: #888;
-    text-decoration: none;
   }
 
   .form-button:hover {
