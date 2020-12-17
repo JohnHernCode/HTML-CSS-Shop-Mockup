@@ -160,6 +160,7 @@ hr {
   border-radius: 0;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-size: 16px;
+  color: #888;
 }
 
 .card-b {
@@ -174,7 +175,7 @@ hr {
 
 .small-info {
   color: #d35266;
-  font-size: 20px;
+  font-size: 14px;
   font-weight: 600;
   padding-top: 0;
 }
@@ -821,7 +822,7 @@ footer {
     padding-left: 30px;
   }
 
-  .set-options h1 {
+  .cap {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     color: #383838;
     font-size: 16px;
