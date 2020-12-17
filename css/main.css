@@ -229,10 +229,11 @@ hr {
   filter: grayscale(100%);
 }
 
-.foot-cat h5 {
+.foot-cat h1 {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   color: #d35266;
   font-weight: 600;
+  font-size: 16px;
 }
 
 .foot-line {
@@ -807,7 +808,7 @@ footer {
     padding-left: 30px;
   }
 
-  .set-options h5 {
+  .set-options h1 {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     color: #383838;
     font-size: 12px;
