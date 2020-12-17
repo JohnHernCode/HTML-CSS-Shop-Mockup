@@ -7,7 +7,7 @@
 
 body {
   font-family: 'Raleway', Helvetica, sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
 }
 
@@ -36,6 +36,8 @@ nav a {
   justify-content: space-around;
   align-items: center;
   padding: 0;
+  margin-bottom: 0;
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
 .logo img {
@@ -44,23 +46,28 @@ nav a {
   padding-left: 10px;
 }
 
+.object a {
+  padding: 5px;
+  font-size: 14px;
+}
+
 .object-end2 a {
   color: #fff;
   padding: 10px;
-  font-size: 12px;
+  font-size: 20px;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
 .object-home a {
   color: rgb(211, 82, 102);
-  padding: 10px;
-  font-size: 12px;
+  padding: 5px;
+  font-size: 14px;
 }
 
 .object-end a {
   color: rgb(211, 82, 102);
   padding-left: 150px;
-  font-size: 12px;
+  font-size: 20px;
 }
 
 .object-end2 a:hover {
@@ -73,11 +80,6 @@ nav a {
 
 .object-end .fas {
   color: #fff;
-}
-
-.object {
-  padding: 10px;
-  font-size: 12px;
 }
 
 .object a:hover {
@@ -108,7 +110,7 @@ nav a {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 700;
 }
 
@@ -131,7 +133,7 @@ main {
   padding-left: 10px;
   padding-top: 10px;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
-  font-size: 10px;
+  font-size: 18px;
   font-weight: 500;
   color: #888;
 }
@@ -157,7 +159,7 @@ hr {
   display: block;
   border-radius: 0;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
-  font-size: 12px;
+  font-size: 16px;
 }
 
 .card-b {
@@ -166,13 +168,13 @@ hr {
 }
 
 .card-t {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 500;
 }
 
 .small-info {
   color: #d35266;
-  font-size: 12px;
+  font-size: 20px;
   font-weight: 600;
   padding-top: 0;
 }
@@ -191,7 +193,7 @@ hr {
 
 .plus-square .fas {
   color: #888;
-  font-size: 12px;
+  font-size: 16px;
   padding: 1px;
   margin: 0;
   text-align: center;
@@ -200,12 +202,12 @@ hr {
 .cash {
   color: #d35266;
   font-weight: 600;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .foot-img {
   font-weight: 300;
-  font-size: 12px;
+  font-size: 20px;
 }
 
 .foot-img img {
@@ -215,7 +217,7 @@ hr {
 .foot-cat h1 {
   color: #d35266;
   font-weight: 600;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .foot-line {
@@ -231,7 +233,7 @@ hr {
 
 .footer-copyright {
   font-weight: 300;
-  font-size: 14px;
+  font-size: 20px;
   padding: 10px 0;
 }
 
@@ -257,7 +259,7 @@ footer {
 
 .foot-last {
   color: #d35266;
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .foot-last button {
@@ -274,7 +276,7 @@ footer {
 .last-icons {
   float: right;
   padding-right: 30px;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .last-icons span {
@@ -303,17 +305,32 @@ footer {
 
 .mobile-section {
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
-  font-size: 12px;
+  font-size: 16px;
   color: #888;
 }
 
 .dark {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
   padding-right: 4px;
   font-weight: 700;
+  font-size: 14px;
 }
 
 .light {
+  font-family: 'Roboto', Arial, Helvetica, sans-serif;
   padding-right: 4px;
+  font-size: 14px;
+}
+
+.mobile-dark {
+  padding-right: 4px;
+  font-weight: 700;
+  font-size: 12px;
+}
+
+.mobile-light {
+  padding-right: 4px;
+  font-size: 12px;
 }
 
 .contents hr {
@@ -342,13 +359,13 @@ footer {
 }
 
 .stock {
-  font-size: 10px;
+  font-size: 14px;
   font-weight: 700;
   color: #d35266;
 }
 
 .card-text {
-  font-size: 10px;
+  font-size: 14px;
   padding-top: 5px;
 }
 
@@ -402,7 +419,7 @@ footer {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 12px;
+  font-size: 16px;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
   font-weight: 700;
 }
@@ -411,7 +428,7 @@ footer {
   display: flex;
   width: 100%;
   justify-content: center;
-  font-size: 12px;
+  font-size: 16px;
   font-family: 'Roboto', Arial, Helvetica, sans-serif;
 }
 
@@ -464,8 +481,41 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 0 150px;
-    font-size: 16px;
+    font-size: 20px;
     margin: 0;
+  }
+
+  .lg-logo img {
+    width: 120px;
+    height: 30px;
+    padding-left: 10px;
+  }
+
+  .lg-object a {
+    padding: 5px;
+    font-size: 16px;
+  }
+
+  .lg-object-home a {
+    color: rgb(211, 82, 102);
+    padding: 5px;
+    font-size: 16px;
+  }
+
+  .lg-object a:hover {
+    color: #d35266;
+  }
+
+  .lg-object .fas {
+    color: rgb(255, 255, 255);
+  }
+
+  .lg-object-home a:hover {
+    color: rgb(255, 255, 255);
+  }
+
+  .lg-object-home .fas {
+    color: #d35266;
   }
 
   .lgnav-search {
@@ -474,7 +524,7 @@ footer {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    font-size: 16px;
+    font-size: 20px;
     margin: 0;
     width: 100%;
   }
@@ -500,7 +550,7 @@ footer {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     color: #888;
     font-weight: 700;
-    font-size: 10px;
+    font-size: 14px;
     padding-top: 10px;
     padding-bottom: 10px;
   }
@@ -513,7 +563,7 @@ footer {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 700;
   }
 
@@ -624,7 +674,7 @@ footer {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 700;
   }
 
@@ -636,7 +686,7 @@ footer {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 700;
   }
 
@@ -691,13 +741,13 @@ footer {
     padding-left: 60px;
     padding-top: 10px;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 500;
     color: #888;
   }
 
   .large-h-info {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: normal;
     color: #888;
   }
@@ -758,7 +808,7 @@ footer {
 
   .span-checkboxes {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 400;
     color: #888;
     padding-left: 20px;
@@ -774,7 +824,7 @@ footer {
   .set-options h1 {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     color: #383838;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 800;
   }
 
@@ -784,7 +834,7 @@ footer {
 
   .console-checkboxes {
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
-    font-size: 12px;
+    font-size: 16px;
     font-weight: 400;
     color: #888;
   }
