@@ -4,9 +4,7 @@ The Capstone project is during the 4th week of the Microverse program and is to 
 
 The original design idea was by ![Mohammed Awad on Behance](https://www.behance.net/M_Awad).
 
-![screenshot](./shot1.png)
-![screenshot](./shot2.png)
-![screenshot](./shot3.png)
+![screenshot](img/screenshothome.png)
 
 Additional description about the project and its features.
 
